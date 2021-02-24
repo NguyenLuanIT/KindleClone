@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "743456635940",
+    "firebase_url": "https://kindleclone-42bf2-default-rtdb.firebaseio.com",
+    "project_id": "kindleclone-42bf2",
+    "storage_bucket": "kindleclone-42bf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743456635940:android:8d23feebdd6287d0b66cb1",
+        "android_client_info": {
+          "package_name": "com.kindle.clone.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743456635940-8ipi6pvagq0ka75u36maj3r5l072f4u7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kindle.clone.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "743456635940-pgtdn9sd3ukcpo1dnfr0oqbfuaodhih7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1lvhjn71o93JVyyElYJzZ4Illq6u5_r4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743456635940-pgtdn9sd3ukcpo1dnfr0oqbfuaodhih7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
