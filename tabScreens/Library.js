@@ -50,11 +50,6 @@ function LibraryScreen({ navigation }) {
         <View>
             <Text>Welcome {user.displayName}</Text>
             <Text>{user.email}</Text>
-            {/* <Image
-                source={{ uri: user.photoURL }}
-                style={{ width: 130, height: 180 }}
-            /> */}
-            {/* {console.log(user)} */}
             <Button
                 title="Sign Out"
                 onPress={() => SignOut()}

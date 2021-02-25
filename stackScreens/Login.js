@@ -5,7 +5,7 @@ import SignupHeader from "../components/SignupHeader";
 import SignupFooter from "../components/SignupFooter";
 import auth from '@react-native-firebase/auth';
 import { GoogleSignin } from '@react-native-community/google-signin';
-import { LoginManager, AccessToken } from 'react-native-fbsdk';
+
 
 GoogleSignin.configure({
     webClientId: '743456635940-pgtdn9sd3ukcpo1dnfr0oqbfuaodhih7.apps.googleusercontent.com',
@@ -25,14 +25,12 @@ export default function LoginScreen({ navigation }) {
                 if (error.code === 'auth/email-already-in-use') {
                     console.log('That email address is already in use!');
                 }
-
                 if (error.code === 'auth/invalid-email') {
                     console.log('That email address is invalid!');
                 }
                 if (error.code === 'auth/user-not-found') {
                     console.log('!!!!!!');
                 }
-
                 console.error(error);
             });
     }
